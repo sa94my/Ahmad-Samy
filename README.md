@@ -2,7 +2,7 @@
 
 ## Content
  contains test cases for search functionality of Google
- - <b> Home Page <\b>
+ - <b> Home Page </b>
     - search text field is available and enabled
     - User is able to type a search key and perform a search
     - User is redirected to search results page 
