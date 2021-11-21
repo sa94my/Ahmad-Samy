@@ -24,8 +24,8 @@ public class HomePage {
         driver.findElement(searchFieldLocator).sendKeys(Keys.ENTER);
     }
 
-    public boolean verifyUserisRedirectedToSearchResults(){
-        return driver.getCurrentUrl().contains("/search?q=instabug");
+    public boolean verifyUserisRedirectedToSearchResults(String matcher){
+        return driver.getCurrentUrl().contains("/search?q="+matcher);
     }
 
 

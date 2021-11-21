@@ -24,7 +24,7 @@ HomePage home;
     @Test
     public void testSearchFunction(){
         home.searchWithKey(searchKeyword);
-       Assert.assertTrue(home.verifyUserisRedirectedToSearchResults());
+       Assert.assertTrue(home.verifyUserisRedirectedToSearchResults(searchKeyword));
 
     }
 
