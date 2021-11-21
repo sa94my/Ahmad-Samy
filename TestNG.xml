@@ -4,7 +4,7 @@
     <test thread-count="5" name="GUI">
         <classes>
             <class name="search.HomePageTests" />
-
+            <class name="search.SearchResultsTests"></class>
         </classes>
     </test>
 
